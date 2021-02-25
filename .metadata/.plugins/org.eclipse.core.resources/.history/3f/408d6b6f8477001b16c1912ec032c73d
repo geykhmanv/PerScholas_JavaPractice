@@ -1,0 +1,9 @@
+package manager_trainee_inheritence_practice;
+
+public class Manager extends Employee{
+
+	public Manager() {
+		super();
+	}
+	
+}//public class Manager

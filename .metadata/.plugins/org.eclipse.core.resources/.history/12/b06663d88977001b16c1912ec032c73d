@@ -1,0 +1,9 @@
+package libary_interface_practice;
+
+public class AdultUser implements LibraryUser {
+
+	int age;
+	String bookType;
+	
+	
+}//public class AdultUser 

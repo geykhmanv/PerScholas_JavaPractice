@@ -1,0 +1,62 @@
+package com.perscholas.java_basics;
+
+public class OperatorsAndNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//integers in binary notation
+//		String int1 = "1"; //1
+//		String int2 = "1000"; //8
+//		String int3 = "100001"; //33
+//		String int4 = "1001110"; //78
+//		String int5 = "1100010011"; //787
+//		String int6 = "1000010011000011"; //33,987
+		
+		//binary numbers to decimal
+//		String bin1 = "2"; //0010
+//		String bin2 = "9"; //0010
+//		String bin3 = "52"; //0011 0100
+//		String bin4 = "114"; //0111 0010
+//		String bin5 = "543"; //0010 0001 1111
+//		String bin6 = "11367"; //0010 1100 0110 0111
+		
+		int x = 2;
+		//System.out.println(Integer.toBinaryString(x));
+		//System.out.println(x<<1);
+		
+		int y = 150;
+		//System.out.println(Integer.toBinaryString(y));
+		y = y>>1;
+		//System.out.println(y);
+		
+		int a = 7;
+		int b = 17;
+		int c = (a & b);
+		int d = (a | b);
+//		System.out.println(c);
+//		System.out.println(d);
+		
+		int e = 7;
+		//System.out.println(e);
+		e++;
+		//System.out.println(e);
+		
+		int f = 4;
+		f++;
+		System.out.println(f);
+		++f;
+		System.out.println(f);
+		f = f + 1;
+		System.out.println(f);
+		
+		
+		
+		
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class OperatorsAndNumbers 

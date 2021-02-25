@@ -1,0 +1,7 @@
+package monster_game;
+
+import Monster.java;
+
+public class FireMonster extends java {
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\geykh\eclipseWS\WS_Portal\.metadata\.plugins\org.eclipse.jdt.core
+2065498673.index
+1006270732.index
+719456564.index

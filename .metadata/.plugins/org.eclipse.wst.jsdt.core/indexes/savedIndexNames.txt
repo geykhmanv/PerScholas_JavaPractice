@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\geykh\eclipseWS\WS_Portal\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+59136780.index
+4275111861.index
+654024624.index
+2065498673.index
+3300029070.index
+782461808.index

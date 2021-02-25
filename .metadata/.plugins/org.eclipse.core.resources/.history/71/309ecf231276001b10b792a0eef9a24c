@@ -1,0 +1,51 @@
+package com.perscholas.java_basics;
+
+public class JavaBasicsClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//sum of 2 integers
+		int x = 5;
+		int y = 2;
+		int sum = x + y;
+		//System.out.println(sum);
+		
+		//sum of 2 doubles
+		double a = 4.56;
+		double b = 8.09685;
+		double doubleSum = a + b;
+		//System.out.println(doubleSum);
+		
+		//sum of int and double
+		int c = 6;
+		double d = 45.97;
+		double intDoubleSum = c + d;
+		//System.out.println(intDoubleSum);
+		
+		//divide larger int by smaller int
+		int e = 10;
+		int f = 2;
+		int quotient = e/f;
+		//System.out.println(quotient);
+		//if f/e the result is 0. 
+		
+//		//divide doubles and cast result to an integer
+		double g = 4.56;
+		double h = 9.786;
+		//double quotient2 = h/g;
+		double quotient2 = (int)h/g;
+		System.out.println(quotient2);
+		
+		
+//		double data = 3452.345;
+//		int value = (int)data;
+//		System.out.println(value);
+		
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class JavaBasicsClass

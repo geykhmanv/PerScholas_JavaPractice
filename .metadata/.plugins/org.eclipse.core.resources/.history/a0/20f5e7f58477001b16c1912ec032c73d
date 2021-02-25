@@ -1,0 +1,8 @@
+package manager_trainee_inheritence_practice;
+
+public class Trainee extends Employee{
+
+	
+	
+
+}//public class Trainee

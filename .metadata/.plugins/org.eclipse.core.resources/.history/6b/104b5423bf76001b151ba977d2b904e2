@@ -1,0 +1,36 @@
+package com.perscholas.java_basics;
+
+public class Arrays {
+
+	public static void prompt1() {
+		int[] array = {1, 2, 3};
+		for(int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}//for
+	}//prompt1
+	
+	public static void prompt2() {
+		int[] array = {13, 5, 7, 68, 2};
+		System.out.println(array[2]);
+	}//prompt2
+	
+	public static void prompt3() {
+		String[] array = {"red", "green", "blue", "yellow"};
+		System.out.println(array.length);
+		String[] arrayCopy = array.clone();
+		System.out.println(arrayCopy);
+	}//prompt3
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//prompt1();
+		//prompt2();
+		prompt3();
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class Arrays

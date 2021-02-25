@@ -1,0 +1,23 @@
+package manager_trainee_inheritence_practice;
+
+public class InheritanceActivity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Manager manager = new Manager();
+		Trainee trainee = new Trainee();
+		
+		manager.setEmployeeId(126534);
+		manager.setEmployeeName("Peter");
+		manager.setEmployeeAddress("Chennai India");
+		manager.setEmployeePhone(237844);
+		manager.setBasicSalary(65000);
+		manager.calculateSalary();
+	
+		
+		
+	}//public static void main(String[] args)
+	
+	
+}//public class InheritanceActivity

@@ -1,0 +1,52 @@
+package com.perscholas.cafe;
+
+public class Product {
+
+	private String name;
+	private double price;
+	private String description;
+	private int quantity;
+	final private double SALES_TAX = 0.072;
+	
+	public Product() {
+		
+	}//no arg constructor
+	
+	public Product(String name, double price, String description) {
+		this.name = name;
+		this.price = price;
+		this.description = description;
+	}//constructor
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String productName) {
+		this.name = productName;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double productPrice) {
+		this.price = productPrice;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String productDesc) {
+		this.description = productDesc;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int productQuantity) {
+		this.quantity = productQuantity;
+	}
+	public double calculateProductTotal() {
+		return price*quantity;
+	}
+	public double calculateTotalPrice() {
+		return 
+	}
+	
+}//public class Product

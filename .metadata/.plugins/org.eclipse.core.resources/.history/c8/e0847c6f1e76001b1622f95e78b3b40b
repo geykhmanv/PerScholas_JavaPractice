@@ -1,0 +1,29 @@
+package com.perscholas.java_basics;
+
+public class OperatorsAndNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//integers in binary notation
+//		String int1 = "1"; //1
+//		String int2 = "1000"; //8
+//		String int3 = "100001"; //33
+//		String int4 = "1001110"; //78
+//		String int5 = "1100010011"; //787
+//		String int6 = "1000010011000011"; //33,987
+		
+		//binary numbers to decimal
+		String bin1 = "2"; //0010
+		String bin2 = "9"; //0010
+		String bin3 = ""
+		
+		
+		
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class OperatorsAndNumbers 

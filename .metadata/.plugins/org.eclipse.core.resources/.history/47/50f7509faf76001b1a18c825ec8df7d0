@@ -1,0 +1,30 @@
+package com.perscholas.java_basics;
+
+public class ControlFlowStatements {
+
+	public static void prompt1() {
+		int x = 7;
+		if(x < 10) {
+			System.out.println("Less than 10");
+		}//if
+	}//prompt1
+	
+	public static void prompt2() {
+		int x = 15;
+		if(x < 10) {
+			System.out.println("Less than 10");
+		}else {System.out.println("Greater than 10");}
+	}//prompt2
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		prompt1();
+		prompt2();
+
+	}//public static void main(String[] args)
+
+}//public class ControlFlowStatements

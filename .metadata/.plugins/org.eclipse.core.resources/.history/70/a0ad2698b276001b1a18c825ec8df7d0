@@ -1,0 +1,29 @@
+package com.perscholas.java_basics;
+
+public class Loops {
+
+	public static void prompt1() {
+		for(int i = 1; i <= 10; i++) {
+			System.out.println(i);
+		}//for
+	}//prompt1
+	
+	public static void prompt2() {
+		int i = 0;
+		while(i <= 100) {
+			
+		}
+	}//prompt2
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//prompt1();
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class Loops 

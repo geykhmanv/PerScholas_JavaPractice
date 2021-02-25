@@ -1,0 +1,38 @@
+package com.perscholas.cafe;
+
+public class Espresso extends Product {
+
+	boolean extraShot;
+	boolean macchiato;
+	
+	public Espresso() {
+		super();
+		this.extraShot = false;
+		this.macchiato = false;
+	}
+	public Espresso(String name, double price, String description, boolean sugar, boolean milk) {
+		super(name, price, description);
+		this.extraShot = extraShot;
+		this.macchiato = macchiato;
+	}
+	public boolean getExtraShot() {
+		return extraShot;
+	}
+	public void setExtraShot(boolean extraShot) {
+		this.extraShot = extraShot;
+	}
+	public boolean getMacchiato() {
+		return macchiato;
+	}
+	public void setMacchiato(boolean macchiato) {
+		this.macchiato = macchiato;
+	}
+	
+	
+	@Override
+	double calculateProductTotal() {
+		// TODO Auto-generated method stub
+		return quantity * price;
+	}//double calculateProductTotal()
+
+}//public class Espresso extends Product

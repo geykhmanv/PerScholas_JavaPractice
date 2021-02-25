@@ -1,0 +1,17 @@
+package manager_trainee_inheritence_practice;
+
+public class InheritanceActivity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Manager manager = new Manager();
+		Trainee trainee = new Trainee();
+		
+		
+		
+		
+	}//public static void main(String[] args)
+	
+	
+}//public class InheritanceActivity

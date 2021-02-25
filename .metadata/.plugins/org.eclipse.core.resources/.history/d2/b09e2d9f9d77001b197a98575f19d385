@@ -1,0 +1,33 @@
+package com.perscholas.cafe;
+
+public class Product {
+
+	private String name;
+	private double price;
+	private String description;
+	private int quantity;
+	
+	public Product() {
+		
+	}//no arg constructor
+	
+	public Product(String name, double price, String description) {
+		this.name = name;
+		this.price = price;
+		this.description = description;
+	}//constructor
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String productName) {
+		this.name = productName;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double productPrice) {
+		this.price = productPrice;
+	}
+	public 
+}//public class Product

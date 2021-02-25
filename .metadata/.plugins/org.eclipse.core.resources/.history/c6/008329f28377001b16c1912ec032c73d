@@ -1,0 +1,44 @@
+package manager_trainee_inheritence_practice;
+
+public class Employee {
+
+	 long employeeId;
+	 String employeeName;
+	 String employeeAddress;
+	 long employeePhone;
+	 double basicSalary;
+	 double specialAllowance = 250.80;
+	 double hra = 1000.50;
+	
+	 
+	 public Employee() {
+		 
+	 }
+//	 public Employee(long eid) {
+//		 employeeId = eid;
+//	 }
+//	 public Employee(long eid, String ename) {
+//		 employeeId = eid;
+//		 employeeName = ename;
+//	 }
+//	 public Employee(long eid, String ename, String eaddress) {
+//		 employeeId = eid;
+//		 employeeName = ename;
+//		 employeeAddress = eaddress;
+//	 }
+//	 public Employee(long eid, String ename, String eaddress, long ephone) {
+//		 employeeId = eid;
+//		 employeeName = ename;
+//		 employeeAddress = eaddress;
+//		 employeePhone = ephone;
+//	 }
+	public Employee(long eid, String ename, String eaddress, long ephone, double basicSal) {
+		employeeId = eid;
+		employeeName = ename;
+		employeeAddress = eaddress;
+		employeePhone = ephone;
+		basicSalary = basicSal;
+	}
+	
+	
+}//public class Employee 

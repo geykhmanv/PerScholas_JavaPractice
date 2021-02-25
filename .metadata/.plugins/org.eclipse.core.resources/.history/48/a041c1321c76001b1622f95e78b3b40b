@@ -1,0 +1,18 @@
+package com.perscholas.java_basics;
+
+public class OperatorsAndNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String int1 = "1";
+		String int2 = "1000";
+		
+		
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class OperatorsAndNumbers 

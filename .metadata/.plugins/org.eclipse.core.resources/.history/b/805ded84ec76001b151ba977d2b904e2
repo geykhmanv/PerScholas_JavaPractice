@@ -1,0 +1,10 @@
+package monster_game;
+
+public class Monster {
+
+	protected String name;
+	
+	public static void attack() {
+		
+	}
+}//public class Monster

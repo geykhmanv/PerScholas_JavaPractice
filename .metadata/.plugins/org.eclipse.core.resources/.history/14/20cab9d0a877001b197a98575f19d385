@@ -1,0 +1,19 @@
+package com.perscholas.cafe;
+import java.util.Scanner;
+public class CafeApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Espresso e1 = new Espresso();
+		e1.setPrice(10.00);
+		e1.setMacchiato(true);
+		e1.setQuantity(1);
+		System.out.println(e1.calculateProductTotal());
+		
+		Coffee
+//		
+	}//public static void main(String[] args)
+
+	
+}//public class CafeApp 

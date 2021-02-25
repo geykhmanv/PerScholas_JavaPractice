@@ -1,0 +1,5 @@
+package libary_interface_practice;
+
+public interface LibraryUser {
+
+}

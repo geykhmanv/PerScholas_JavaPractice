@@ -1,0 +1,10 @@
+package libary_interface_practice;
+
+public class LibraryInterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

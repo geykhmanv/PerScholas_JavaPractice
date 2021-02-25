@@ -1,0 +1,10 @@
+package libary_interface_practice;
+
+public class KidUsers implements LibaryUser{
+
+	
+	
+	
+	
+	
+}//public class KidUsers

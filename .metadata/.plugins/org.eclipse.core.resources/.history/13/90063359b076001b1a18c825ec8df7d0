@@ -1,0 +1,53 @@
+package com.perscholas.java_basics;
+import java.util.*;
+public class ControlFlowStatements {
+
+	public static void prompt1() {
+		int x = 7;
+		if(x < 10) {
+			System.out.println("Less than 10");
+		}//if
+	}//prompt1
+	
+	public static void prompt2() {
+		int x = 15;
+		if(x < 10) {
+			System.out.println("Less than 10");
+		}else {System.out.println("Greater than 10");}
+	}//prompt2
+	
+	public static void prompt3() {
+		int x = 50;
+		if(x < 10) {
+			System.out.println("Less than 10");
+		}//if
+		else if(x > 10 && x < 20) {
+			System.out.println("Between 10 and 20");
+		}//else if
+		else {
+			System.out.println("Greater than or equal to 20");
+		}//else
+	}//prompt3
+	
+	public static void prompt4() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter an integer: ");
+		int score = scan.nextInt();
+		scan.close();
+		
+		if(score < 0 || score > 100) {
+			System.out.println("Score out of range");
+		}
+		else if(score)
+	}//prompt4
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//prompt1();
+		//prompt2();
+		//prompt3();
+
+	}//public static void main(String[] args)
+
+}//public class ControlFlowStatements

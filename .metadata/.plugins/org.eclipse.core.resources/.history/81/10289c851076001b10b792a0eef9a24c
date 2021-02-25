@@ -1,0 +1,25 @@
+package com.perscholas.java_basics;
+
+public class JavaBasicsClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//sum of 2 integers
+		int x = 5;
+		int y = 2;
+		int sum = x + y;
+		System.out.println(sum);
+		
+		//sum of 2 doubles
+		double 
+		
+		
+		
+		
+		
+		
+		
+	}//public static void main(String[] args)
+
+}//public class JavaBasicsClass

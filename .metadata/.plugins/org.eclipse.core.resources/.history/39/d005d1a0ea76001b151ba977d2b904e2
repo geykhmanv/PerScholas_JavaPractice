@@ -1,0 +1,8 @@
+package monster_game;
+
+public class Monster {
+
+	public static void attack() {
+		
+	}
+}//public class Monster

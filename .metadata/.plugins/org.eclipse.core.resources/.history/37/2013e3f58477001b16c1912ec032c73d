@@ -1,0 +1,14 @@
+package manager_trainee_inheritence_practice;
+
+public class Manager extends Employee{
+
+	public Manager() {
+		
+	}
+	
+	public Manager(long employeeId, String employeeName, String employeeAddress, long employeePhone, double basicSalary) {
+		super(employeeId, employeeName, employeeAddress, employeePhone);
+		this.basicSalary = basicSalary;
+	}
+	
+}//public class Manager

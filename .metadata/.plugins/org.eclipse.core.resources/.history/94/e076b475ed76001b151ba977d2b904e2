@@ -1,0 +1,15 @@
+package monster_game;
+
+public class Monster {
+
+	protected String name;
+	
+	public Monster(String name) {
+		this.name = name;
+	}//public Monster(String name)
+	
+	public String attack() {
+		return "I don't know how to attack!";
+	}//public String attack() 
+	
+}//public class Monster

@@ -1,0 +1,13 @@
+package com.perscholas.cafe;
+
+public class Coffee extends Product {
+
+	@Override
+	double calculateProductTotal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}//double calculateProductTotal() 
+
+	
+	
+}//public class Coffee extends Product

@@ -1,0 +1,29 @@
+package com.perscholas.cafe;
+import java.util.Scanner;
+public class CafeApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Product p1 = new Product("coffee", 1.99, "regular or decaf");
+		Product p2 = new Product("espresso", 3.49, "4 ounces");
+		Product p3 = new Product("cappuccino", 4.50, "whole or skim milk");
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("How many coffees would you like?");
+		p1.setQuantity(scan.nextInt());
+		System.out.println("Your total is: " + p1.calculateProductTotal());
+		
+		System.out.println("How many espressos would you like?");
+		p2.setQuantity(scan.nextInt());
+		System.out.println("Your total is: " + p2.calculateProductTotal());
+		
+		System.out.println("How many cappuccinos would you like?");
+		p3.setQuantity(scan.nextInt());
+		System.out.println("Your total is: " + p3.calculateProductTotal());
+		
+		scan.close();
+	}//public static void main(String[] args)
+
+	
+}//public class CafeApp 
